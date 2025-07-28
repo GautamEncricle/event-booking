@@ -1,6 +1,5 @@
 import dotenv from "dotenv";
 import http from "http";
-import errorHandler from "./src/middlewares/error.middleware.js";
 
 import connect from "./src/configs/db.js";
 import app from "./app.js";
